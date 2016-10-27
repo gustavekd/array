@@ -43,11 +43,9 @@ namespace array
             {
                 for (int b = a; b < numbArray.Length; b++)
                 {
-                    if (numbArray[b] < numbArray[a])
-                    {
-                        
-                    }
-                    }
+                    if (numbArray[a] < numbArray[b])
+                    numbArray[b] = numbArray[a]
+                ; }
                     }
             for (int a = 0; a < numbArray.Length; a++)
             {
