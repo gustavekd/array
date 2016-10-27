@@ -45,10 +45,16 @@ namespace array
                 {
                     if (numbArray[b] < numbArray[a])
                     {
-                        Console.WriteLine(numbArray[a]);
+                        
                     }
-                    } 
+                    }
+                    }
+            for (int a = 0; a < numbArray.Length; a++)
+            {
+                Console.WriteLine(numbArray[a]);
             }
+
         }
     }
-}
+    }
+
