@@ -49,7 +49,7 @@ namespace array
                     }
             for (int a = 0; a < numbArray.Length; a++)
             {
-                Console.WriteLine(numbArray[a]);
+                Console.WriteLine(numbArray[a]); 
             }
 
         }
