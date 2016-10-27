@@ -47,7 +47,7 @@ namespace array
                     {
                         Console.WriteLine(numbArray[a]);
                     }
-                    }
+                    } 
             }
         }
     }
